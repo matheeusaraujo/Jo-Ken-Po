@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Silkscreen", serif; 
+}
+
+body {
+
+background: #c4cfa1;
+background-size: cover;
+display: flex;
+justify-content:center;
+align-items: center;
+min-height: 100vh;
+
+}
+
+h1 {
+    font-size: 43px;
+    color: #c4cfa1;
+    background-color: #1f1f1f;
+    padding: 10px 15px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.container {
+
+    padding: 20px;
+    background-color: #8b956d;
+    border-radius: 05px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: ;
+    border: double #4d533c 20px;
+}
+
+.buttons {
+
+    margin: 30px 0 ;
+    display: flex;
+    gap: 30px;
+}
+
+button {
+
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover {
+
+    opacity: 0.7;
+}
+
+#rock {
+
+    background-color: #1f1f1f;
+    
+}
+
+#paper {
+
+    background-color: #1f1f1f;
+}
+
+#scissors{
+
+    background-color: #1f1f1f;
+}
+
+p {
+    font-weight: bold ;
+    margin-bottom: 20px;
+}
+
+.your-score span{
+
+    color:rgb(63, 207, 63);
+    
+}
+
+.machine-score span {
+
+    color: red;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Projeto JoKenPo</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>JoKenPo</h1>
+
+    <div class="buttons">
+        <button id="paper" onclick="playHuman ('paper')">&#9995</button>
+        <button id="rock" onclick="playHuman ('rock')">&#9994;</button>
+        <button id="scissors" onclick="playHuman ('scissors')">&#9996;</button>
+    </div>
+
+        <p class="result"></p>
+
+        <p class="your-score"> Minha Pontuação:<span id="human-score">0</span></p>
+        <p class="machine-score">Pontuação da Maquina:<span id ="machine-score">0</span></p>
+
+    </div>
+    
+    <script src="./scripts.js"></script>
+</body>
+</html>
